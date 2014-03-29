@@ -1,9 +1,15 @@
-<div class="hero-unit">
-  <h1>'Allo, 'Allo!</h1>
-  <p>You now have</p>
-  <ul>
-      <li ng-repeat="thing in awesomeThings">{{thing}}</li>
-  </ul>
-  <p>installed.</p>
-  <h3>Enjoy coding! - Yeoman</h3>
+<div>
+
+    <tabset>
+        <tab ng-repeat="tab in tabs" heading="{{tab.title}}" active="tab.active" disabled="tab.disabled">
+            <p ng-repeat="item in tab.content" >{{item}}</p>
+        </tab>
+
+    </tabset>
+
+
+  <!--<h1>MyCliner!</h1>-->
+  <!--<ul>-->
+      <!--<li ng-repeat="thing in awesomeThings">{{thing}}</li>-->
+  <!--</ul>-->
 </div>

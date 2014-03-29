@@ -11,4 +11,4 @@ FTP_SITE=''
 USER=''
 PASSWD=''
 echo "connecting to FTP_SITE..."
-ncftpput -R -u $USER -p $PASSWD $FTP_SITE /mycliner.com/app/ /Users/oakley/Documents/projects/myCliner/app/* #*.jpg *.xml *.mp3 *.pdf
+ncftpput -R -u $USER -p $PASSWD $FTP_SITE /mycliner.com/app/ /Users/oakley/Documents/projects/myCliner/app

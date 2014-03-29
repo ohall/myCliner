@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myClinerApp', [])
+angular.module('myClinerApp', ['ui.bootstrap'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
