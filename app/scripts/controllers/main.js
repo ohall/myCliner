@@ -53,7 +53,7 @@ angular.module('myClinerApp')
         { title:'Tattoo ideas', content:$scope.tatoos},
         { title:'Food ideas', content:$scope.food},
         { title:'GPS navigator', content:$scope.nav},
-        { title:'Fun facts', content:$scope.facts}
+        { title:'Fun facts', content:$scope.facts},
         { title:'Texts', content:$scope.texts}
     ];
 
