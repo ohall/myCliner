@@ -39,10 +39,6 @@ angular.module('myClinerApp')
         'pizza',
         'mound of ketchup'
     ];
-    
-     $scope.texts = [
-     		'testing'
-     ];
 
     $scope.nav = [];
 
@@ -54,7 +50,6 @@ angular.module('myClinerApp')
         { title:'Food ideas', content:$scope.food},
         { title:'GPS navigator', content:$scope.nav},
         { title:'Fun facts', content:$scope.facts}
-        { title:'Texts', content:$scope.texts}
     ];
 
 
